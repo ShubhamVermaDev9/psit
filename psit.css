@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height:1000px;
+    width: 1080px;
+    display:flex;
+}
+.psit{
+    height:100%;
+    width: 920px;
+    background-image: url("https://erp.psit.ac.in/assets/img/bg-14.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.cont{
+    height:250px;
+    width:750px;
+    background: #282727;
+    margin: 220px 0 0 0;
+    opacity: .9;
+    
+}
+.text h1{
+    color: white;
+    margin: 8px 8px 8px 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 3px 15px 3px 15px;
+}
+.text p{
+    color: white;
+    margin: 3px;
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 3px 15px 3px 15px
+
+}
+.right{
+    height: 85%;
+    width: 100%;
+}
+.lgo{
+    background-image: url("https://erp.psit.ac.in/assets/img/psit.png");
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 40px 50px 70px 200px;
+}
+input{
+    margin: 10px 50px 0 150px;
+    height: 2.5rem;
+    width: 400px;
+    border: 1.2px solid rgb(176, 29, 29);
+    border-radius: 2px;
+    text-align: start;
+    padding: 3px;
+    cursor: pointer;
+    box-shadow: 4px 4px 20px rgba(176, 29, 29 ,.25);
+    
+}
+
+#sm{
+    margin: 20px 50px 20px 150px;
+    height: 3rem;
+    width: 407px;
+    border: .9px solid rgb(11, 11, 11);
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    background:#348fe2;
+    border-color: #348fe2;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+#fp{
+    margin: 10px 50px 0 150px;
+    height: 3rem;
+    width: 407px;
+    border: .9px solid rgb(11, 11, 11);
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    background:#ff5b57;
+    border-color:#ff5b57;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+#cnu{
+    margin: 10px 50px 0 150px;
+    height: 3rem;
+    width: 407px;
+    border: .9px solid rgb(11, 11, 11);
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    background: #00acac;
+    border-color: #00acac;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+#cpl{
+    margin: 10px 50px 0 150px;
+    height: 3rem;
+    width: 407px;
+    border: .9px solid rgb(11, 11, 11);
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    background: #49b6d6;
+    border-color: #49b6d6;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+#pr{
+    margin: 40px 50px 0 160px;
+    font-size: .9rem;
+}
+.line{
+    height: .1rem;
+    width: 400px;
+    background: #ded9d9;
+    justify-content: center;
+    margin: 50px 50px 10px 150px;
+   
+}
